@@ -47,7 +47,7 @@ function User(name, language, grade = grades.Junior) {
   this.upgrade = () => {
     if (this.finishedTasks >= 5) {
       
-      if (this.grade = grades.Junior) {
+      if (this.grade === grades.Junior) {
         this.grade = grades.Middle;
       } else {
         this.grade = grades.Senior;
