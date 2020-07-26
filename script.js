@@ -97,7 +97,7 @@ user1.finishTask();
 user1.finishTask();
 console.log(user1);
 user1.upgrade();
-user1.fine('rudeToCustomer');
+user1.fine('missedDeadline');
 console.log(user1);
 
 user2.addTask();
@@ -113,5 +113,5 @@ user2.finishTask();
 user2.finishTask();
 console.log(user2);
 user2.upgrade();
-user2.fine('rudeToCustomer');
+user2.fine('missedMeeting');
 console.log(user2);
