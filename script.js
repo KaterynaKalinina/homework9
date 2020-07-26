@@ -52,7 +52,6 @@ function User(name, language, grade = grades.Junior) {
       } else {
         this.grade = grades.Senior;
       };
-      console.log(this.grade);
 
     } else {
       console.log('Not enough finished tasks');
